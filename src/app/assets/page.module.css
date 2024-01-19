@@ -1,0 +1,69 @@
+/* CustomerRegistration.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+/* Apply styles to the header within the .container */
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Apply styles to the form within the .container */
+.container form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left; /* Reset text alignment */
+}
+
+/* Style each form row (label + input/select) */
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Apply styles to labels within the .formRow */
+.formRow label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Apply styles to form fields within the .formRow */
+.formRow .formField {
+  flex: 1;
+  margin-right: 15px;
+}
+
+/* Apply styles to input and select elements */
+.formField input[type="text"],
+.formField input[type="email"],
+.formField select,
+.formField input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border don't affect width */
+}
+
+/* Apply styles to the submit button */
+.container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Apply hover effect to the submit button */
+.container button:hover {
+  background-color: #0056b3;
+}

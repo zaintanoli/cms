@@ -1,0 +1,110 @@
+/* page.module.css */
+
+/* Light mode styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .container form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .formRow label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formRow .formField {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .formField input[type="text"],
+  .formField input[type="email"],
+  .formField select,
+  .formField input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark mode styles */
+  .containerDark {
+    background-color: black; /* Set background to black for dark mode */
+  
+    /* Customize text and form colors for dark mode */
+    color: white;
+  }
+  
+  .containerDark h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .containerDark form {
+    background-color: #333; /* Adjust form background color for dark mode */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .containerDark form label {
+    color: white; /* Adjust label text color for dark mode */
+  }
+  
+  .containerDark form input[type="text"],
+  .containerDark form input[type="email"],
+  .containerDark form select,
+  .containerDark form input[type="date"] {
+    background-color: #444; /* Adjust input background color for dark mode */
+    border: 1px solid #888; /* Adjust input border color for dark mode */
+    color: white; /* Adjust input text color for dark mode */
+  }
+  
+  .containerDark button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .containerDark button:hover {
+    background-color: #0056b3;
+  }
+  

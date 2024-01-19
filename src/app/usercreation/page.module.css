@@ -1,0 +1,64 @@
+/* page.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .container form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left; /* Reset text alignment */
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .formRow label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formRow .formField {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .formField input[type="text"],
+  .formField input[type="email"],
+  .formField select,
+  .formField input[type="date"],
+  .formField input[type="password"],
+  .formField input[type="tel"],
+  .formField input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }

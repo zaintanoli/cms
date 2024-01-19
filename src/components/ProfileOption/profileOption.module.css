@@ -1,0 +1,30 @@
+/* profileOption.module.css */
+
+.profileOption {
+    /* Styles for the container of the profile option */
+    /* Example: */
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    /* Styles for the avatar */
+    /* Example: */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .logoutButton {
+    /* Styles for the logout button */
+    /* Example: */
+    padding: 8px 16px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

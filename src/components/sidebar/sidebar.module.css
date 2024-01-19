@@ -1,0 +1,61 @@
+/* ./src/components/sidebar/sidebar.module.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Initially hidden */
+  width: 300px; /* Width of the sidebar */
+  height: 100%; /* Full height of the viewport */
+  background-color: #333; /* Background color of the sidebar */
+  transition: left 0.3s ease; /* Transition animation for smooth sliding */
+  z-index: 1; /* Ensure it's above other elements */
+  overflow-y: auto; /* Add scroll if content exceeds sidebar height */
+}
+
+.sidebar.open {
+  left: 0; /* Display the sidebar when it's open */
+  z-index: 1;
+}
+
+/* Add styles for the close button */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style links in the sidebar */
+.sidebar a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+/* Style the sidebar toggle button in Navbar */
+.sidebar-toggle-button {
+  background-color: #333;
+  color: #fff;
+  border: black;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 2px;
+  z-index: 1100; /* Ensure it's above the sidebar */
+}
+/* sidebar.module.css */
+
+/* Style the "Facility Management" link */
+.facilityManagement {
+margin-top: 10px; /* Adjust the value to control the spacing */
+}

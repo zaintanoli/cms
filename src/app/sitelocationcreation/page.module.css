@@ -1,0 +1,88 @@
+/* SiteLocationCreation.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.formRow label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formRow .formField {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.formField input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container button {
+  background-color: rgb(13, 122, 224);
+  color: white;
+  padding: 10px 20px;
+  border: black;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.container button:hover {
+  background-color: #042344;
+}
+
+/* Style for the site data table */
+.siteDataTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.siteDataTable th, .siteDataTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.siteDataTable th {
+  background-color: #04284e;
+  color: #fff;
+}
+
+.siteDataTable th, .siteDataTable td:last-child {
+  text-align: center;
+}
+
+.siteDataTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.siteDataTable tr:hover {
+  background-color: #ddd;
+}
